@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "watch": true,
+        "lib": ["DOM", "ES2017"],
+        "rootDir": "./src",
+        "outDir": "./public"
+    },
+    // Include says specifically which folders to compile.
+    "include": [
+        "src"
+    ],
+}

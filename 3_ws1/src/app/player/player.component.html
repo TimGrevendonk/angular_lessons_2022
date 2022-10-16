@@ -1,0 +1,29 @@
+<!-- <div>
+  <p>{{ player.id }}</p>
+  <p>{{ player.name }}</p>
+  <p>{{ player.birthyear }}</p>
+  <ul *ngIf="showTournaments">
+    <li *ngFor="let tournament of player.tournaments_won">
+      {{tournament}}
+    </li>
+  </ul>
+  <button (click)="showDetail()" >{{ buttonText }}</button>
+</div> -->
+
+<article class="max-w-sm rounded shadow-lg justify-center">
+  <img class="animate-wiggle w-full rounded-full p-5" src="assets/birds.jpg" alt="creepy birds">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">{{ player.name }}</div>
+    <p class="text-gray-700 text-base">
+      my birthyear is: {{ player.birthyear }}
+    </p>
+  </div>
+  <a (click)="showDetail()" class="pt-4 pb-2">
+    <button  class="animate-wiggle bg-gradient-to-r from-lilac via-white to-blue-200 rounded-full w-11/12 px-3 p-1 text-sm m-2">{{ buttonText }} - i'm a button!</button>
+  </a>
+  <ul *ngIf="showTournaments">
+    <li *ngFor="let tournament of player.tournaments_won">
+      {{tournament}}
+    </li>
+  </ul>
+</article>

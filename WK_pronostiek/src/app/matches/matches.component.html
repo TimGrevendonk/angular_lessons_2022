@@ -1,0 +1,8 @@
+<p>matches works!</p>
+<ul>
+  <!-- subscribe method -->
+  <li *ngFor="let match of matches">{{match.team1}} - {{match.team2}}</li>
+
+  <!-- Async pipe method -->
+  <!-- <li *ngFor="let match of (matches$ | async)">{{match.team1}} - {{match.team2}}</li> -->
+</ul>

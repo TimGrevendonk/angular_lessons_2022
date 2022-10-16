@@ -1,0 +1,23 @@
+<!-- <table>
+<tr *ngFor="let player of players">
+  <td>{{player.id}}</td>
+  <td>{{player.name}}</td>
+  <td>{{player.birthyear}}</td>
+  <td>
+    <tr *ngFor="let tournament of player.tournaments_won">
+      <td>{{tournament}}</td>
+    </tr>
+  </td>
+</tr>
+</table> -->
+
+<!-- <ul>
+  <li *ngFor="let player of players">
+    {{showPlayer(player)}}
+  </li>
+</ul> -->
+<app-playersearchform></app-playersearchform>
+<div class="grid grid-cols-1 md:grid-cols-2 justify-items-center">
+  <app-player *ngFor="let player of players" [player]="player"></app-player>
+</div>
+

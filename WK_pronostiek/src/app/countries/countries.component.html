@@ -1,0 +1,19 @@
+<p>countries works!</p>
+<ul>
+  <!-- subscribe method -->
+  <!-- <li *ngFor="let country of countries">{{country.name}}</li> -->
+
+  <!-- Async pipe method -->
+  <!-- <li *ngFor="let match of (matches$ | async)">{{match.team1}} - {{match.team2}}</li> -->
+</ul>
+
+<form action="">
+  <label for="countrysearch">search a country</label>
+  <input id="countrysearch" name="countrysearch"
+   type="text">
+</form>
+<ul>
+  <li *ngFor="let country of countries">
+    {{ country.name }}
+  </li>
+</ul>

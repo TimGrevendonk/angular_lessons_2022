@@ -1,0 +1,58 @@
+{
+  "matches": [
+    {
+      "id" : 1,
+      "team1" : "Brugge",
+      "team2" : "Anderlecht",
+      "score1" : 0,
+      "score2" : 0,
+      "date" : "10/10/2022"
+    },
+    {
+      "id" : 2,
+      "team1" : "Westerlo",
+      "team2" : "Mechelen",
+      "score1" : 0,
+      "score2" : 0,
+      "date" : "19/10/2022"
+    },
+    {
+      "id" : 3,
+      "team1" : "Brugge",
+      "team2" : "Westerlo",
+      "score1" : 0,
+      "score2" : 0,
+      "date" : "21/10/2022"
+    },
+    {
+      "id" : 4,
+      "team1" : "Mechelen",
+      "team2" : "Anderlecht",
+      "score1" : 0,
+      "score2" : 0,
+      "date" : "28/10/2022"
+    }
+],
+"countries": [
+  {
+    "id" : 1,
+    "name": "Belgie-uh",
+    "code": "Belg"
+  },
+  {
+    "id" : 2,
+    "name": "nederlandse",
+    "code": "nerd"
+  },
+  {
+    "id" : 3,
+    "name": "bosnie",
+    "code": "Bsss"
+  },
+  {
+    "id" : 4,
+    "name": "atlantis",
+    "code": "blub"
+  }
+]
+}
